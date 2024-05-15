@@ -1,6 +1,6 @@
 document.getElementById('startGame').addEventListener('click', function() {
   // Open the Dino game in a new tab
-  window.open('https://chromedino.com/', '_blank');
+  window.open('chrome://dino', '_blank');
 
   // Automatically focus the game tab and start the game
   setTimeout(() => {
